@@ -1,10 +1,9 @@
 return {
-  { "akinsho/horizon.nvim" },
-
+  {
+    "akinsho/horizon.nvim",
+  },
   {
     "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "horizon",
-    },
+    opts = { colorscheme = "horizon" },
   },
 }
